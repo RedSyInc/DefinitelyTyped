@@ -52,7 +52,7 @@ declare namespace Croppie {
     }
 
     interface CroppieOptions {
-        boundary?: { width: number, height: number };
+        boundary?: { width: string, height: string };
         customClass?: string;
         enableExif?: boolean;
         enableOrientation?: boolean;
@@ -60,7 +60,7 @@ declare namespace Croppie {
         enforceBoundary?: boolean;
         mouseWheelZoom?: boolean;
         showZoomer?: boolean;
-        viewport?: { width: number, height: number, type?: CropType };
+        viewport?: { width: string, height: string, type?: CropType };
     }
 
     interface CropData {
